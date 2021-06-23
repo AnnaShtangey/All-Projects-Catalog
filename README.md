@@ -106,7 +106,8 @@
 [m_audio_tagging.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/ML-Audio-Tagging/blob/main/m_audio_tagging.ipynb)
 
 Задача: научиться "размечать" аудио события. 
-Д[Dataset](https://www.kaggle.com/c/freesound-audio-tagging-2019) 
+
+[Dataset](https://www.kaggle.com/c/freesound-audio-tagging-2019) 
 
 Данные загружены и исследованы.
 Применена One-hot-encoding для тегов.
@@ -124,6 +125,7 @@
 Задача: определить музыкальный жанр, анализируя аудио. 
 
 [Dataset](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification) 
+
 Датасет представляет собой аудиофайлы, изображения мел-спектрограмм, 2 таблицы (для 3 сек. и 30 сек.) со ссылками на аудио-файлы и рассчитанными характеристиками звука.  
  
 Данные загружены, характеристики звука в таблице исследованы, построены графические отображения ряда характеристик.
@@ -136,6 +138,8 @@
 ***
 
 # DL Audio: Определение гендера по речи
+
+[d_audio_classification_of_Gender_by_speech.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/DL-Audio-Classification-of-Gender-by-Speech/blob/main/d_audio_classification_of_Gender_by_speech.ipynb)
 Задача: создать классификатор биологического гендера спикера.
 Данные звукового сигнала переводятся в мел-спектрограммы, а затем обрабатываются изображения мел-спектрограмм с помощью модели с архитектурой VGG16 и torch.
 Использованы библиотеки librosa, torch.
@@ -147,6 +151,7 @@
 
 Задача: Дана база прослушанных композиций с сервиса Spotify с оценкой автора датасета (понравилась, не понравилась). 
 Необходимо определить, понравится ли автору датасета та или иная музыкальная композиция. 
+
 [Dataset](https://www.kaggle.com/geomack/spotifyclassification)
 
 Данные загружены и исследованы.
@@ -184,7 +189,9 @@
 ***
 
 # DL: Детектор одежды
+
 [Fashion_Detection_DeepFashion2_Detectron2.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/Fashion-Detection-DeepFashion2-Detectron2-Flask/blob/master/Fashion_Detection_DeepFashion2_Detectron2.ipynb)
+
 [Fashion-Detection-DeepFashion2-Detectron2-Flask](https://github.com/AnnaShtangey/Fashion-Detection-DeepFashion2-Detectron2-Flask)
 
 Создание детектора одежды.
@@ -199,7 +206,9 @@
 [Brain_MRI_segmentation_Detectron2.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/Brain-MRI-Segmentation-Detectron2/blob/master/Brain_MRI_segmentation_Detectron2.ipynb)
 
 Сегментация МРТ с помощью фреймворка Detectron2. Определение глиомы.
+
 [Dataset](https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation/)
+
 Датасет представляет собой изображения с масками в формате .tiff, маски отмечают области обнаружения глиомы.
 Был создан файл COCO-format .json для загрузки данных в фреймворк.
 Создана модель сегментации, обучена на датасете.  
@@ -207,6 +216,7 @@
 
 # DL: Классификация камней
 [Gemstones_Classification_Torch.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/Gemstones-Classification-Torch-Flask/blob/master/Gemstones_Classification_Torch.ipynb)
+
 [Gemstones-Classification-Torch-Flask](https://github.com/AnnaShtangey/Gemstones-Classification-Torch-Flask)
 
 [Dataset](https://www.kaggle.com/lsind18/gemstones-images)
