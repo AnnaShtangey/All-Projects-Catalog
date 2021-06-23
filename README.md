@@ -20,7 +20,9 @@
 [ml-churn-rate-in-bank.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/ML-Churn-Rate-in-Bank/blob/main/ml-churn-rate-in-bank.ipynb)
 
 Задача: предоставлены исторические данные о поведении клиентов и расторжении договоров с банком. Спрогнозировать, уйдёт клиент из банка в ближайшее время или нет.
+
 [Dataset](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
+
 Были изучены данные, построены различные модели машинного обучения: логистическая регрессия, дерево решений, случайный лес и градиентный бустинг.
 Использовались метрики качества F1-мера и площадь под ROC-кривой — AUCROC.
 Исследования моделей проводились с учетом дисбаланса классов.
@@ -140,6 +142,7 @@
 # DL Audio: Определение гендера по речи
 
 [d_audio_classification_of_Gender_by_speech.ipynb](https://nbviewer.jupyter.org/github/AnnaShtangey/DL-Audio-Classification-of-Gender-by-Speech/blob/main/d_audio_classification_of_Gender_by_speech.ipynb)
+
 Задача: создать классификатор биологического гендера спикера.
 Данные звукового сигнала переводятся в мел-спектрограммы, а затем обрабатываются изображения мел-спектрограмм с помощью модели с архитектурой VGG16 и torch.
 Использованы библиотеки librosa, torch.
